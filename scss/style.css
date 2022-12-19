@@ -67,23 +67,15 @@ a {
 .hero nav li {
   padding: 30px;
 }
-.hero nav a {
-  color: white;
-}
-.hero nav a:hover {
-  color: #a2d0fc;
-}
-.hero-content {
+.hero nav-hero-content {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 30px;
 }
-.hero-content img {
+.hero nav-hero-content img {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
-}
-.hero-content h1 {
-  font-size: medium;
 }
 
 .m-1 {
@@ -164,6 +156,4 @@ a {
 
 .py-5 {
   padding: 5rem 0;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
